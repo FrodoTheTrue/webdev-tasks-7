@@ -5,18 +5,12 @@
     <title>Title</title>
     <style>
         html{
-            /* This image will be displayed fullscreen */
             background:url('http://www.freevector.com/uploads/vector/preview/5130/FreeVector-Night-Vector-Landscape.jpg') no-repeat center center;
-
-            /* Ensure the html element always takes up the full height of the browser window */
             min-height:100%;
 
-            /* The Magic */
             background-size:cover;
         }
 
-        body{
-            /* Workaround for some mobile browsers */
             min-height:100%;
         }
         #svg {margin-left:auto; margin-right:auto; display:block; padding-top: 100px;}
@@ -101,8 +95,6 @@
         var s = Snap("#svg");
         var c = Snap.select("#Oval-8");
         if (!document[hidden]) {
-            //c.animate({rx: 50, ry: 50}, 3000);
-            //c.animate({rx: 50, ry: 50}, 3000);
         }
         if (document[hidden]) {
             isEnergyUp = true;
@@ -222,15 +214,7 @@
 
     });
     var s = Snap("#svg");
-    // Lets create big circle in the middle:
-    //var body = s.ellipse(300, 300, 215, 70);
     var c = Snap.select("#Oval-8");
-    //c.animate({rx: 50, ry: 50}, 1000);
-    //c.animate({rx: 50, ry: 50}, 1000);
-    //console.log(c);
-    //        var circ1 = s.circle(100, 100, 50);
-    //        var circ2 = s.circle(200, 150, 100);
-    //        var rect1 = s.rect(100,100,100,100,20,20).attr({ stroke: '#123456', 'strokeWidth': 20, fill: 'red' });
 </script>
 </body>
 </html>
